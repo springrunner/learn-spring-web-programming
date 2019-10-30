@@ -18,9 +18,9 @@ export default {
                 <text-link link="/mapping/header" v-bind:headers="{'CustomHeader':'mvc'}" text="By presence of header"></text-link>
                 <text-link link="/mapping/header" text="By absence of header"></text-link>
                 <text-link link="/mapping/produces" text="By produces via Accept=application/json"></text-link>
-                <text-link link="/mapping/produces" accept="application/xml" text="By produces via Accept=appilcation/xml"></text-link>
-                <text-link link="/mapping/consumes" method="post" content-type="application/json" v-bind:data="{'name':'byConsumesJson'}" text="By consumes via Content-Type=appilcation/json"></text-link>
-                <text-link link="/mapping/consumes" method="post" content-type="application/xml" data="<javaBean><name>byConsumesXml</name></javaBean>" text="By consumes via Content-Type=appilcation/xml"></text-link>
+                <text-link link="/mapping/produces" accept="application/xml" text="By produces via Accept=application/xml"></text-link>
+                <text-link link="/mapping/consumes" method="post" content-type="application/json" v-bind:data="{'name':'byConsumesJson'}" text="By consumes via Content-Type=application/json"></text-link>
+                <text-link link="/mapping/consumes" method="post" content-type="application/xml" data="<javaBean><name>byConsumesXml</name></javaBean>" text="By consumes via Content-Type=application/xml"></text-link>
                 <text-link link="/mapping/template/first" text="By path + uri template"></text-link>
                 <text-link link="/mapping/template/second/path" text="By path + uri template + path"></text-link>
                 <hr/>
